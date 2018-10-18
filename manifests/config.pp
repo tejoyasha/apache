@@ -10,7 +10,7 @@ class apache::config (
 		source => $configsource,
 	}
 
-	file { 'config-file':
+	file { 'vhost-file':
 		path => $vhostfile,
 		ensure => file,
 		source => template($vhostsource),
