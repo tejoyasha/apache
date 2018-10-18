@@ -13,6 +13,6 @@ class apache::config (
 	file { 'vhost-file':
 		path => $vhostfile,
 		ensure => file,
-		source => template($vhostsource),
+		content => template($vhostsource),
 	}
 }
