@@ -1,0 +1,15 @@
+{
+  "name": "salesforce-apache",
+  "version": "0.1.0",
+  "author": "salesforce",
+  "summary": "This is a test apache module",
+  "license": "Apache-2.0",
+  "source": "https://github.com/tejoyasha/apache.git",
+  "project_page": "no page allocated",
+  "issues_url": "report issues here",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
